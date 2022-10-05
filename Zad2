@@ -1,0 +1,12 @@
+ int[] lista = { 5, 7, 9, 8, 2, 5, 3 };
+            int Sum = 0;
+            for (int i = 0; i < lista.Length; i++)
+            {
+                Sum += lista[i];
+
+            }
+            Console.WriteLine(Sum / lista.Length);
+
+
+            Console.WriteLine(Sum);
+            Console.ReadKey();
