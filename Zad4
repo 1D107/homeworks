@@ -1,0 +1,11 @@
+Console.WriteLine("Wpisz liczbę");
+            double n = Convert.ToDouble(Console.ReadLine());
+            double n2 = Math.Sqrt(n);
+            if (n2 % 1 == 0)
+            {
+                Console.WriteLine("Może być integerem");
+            }
+            else
+            {
+                Console.WriteLine("nie może być integerem");
+            }
