@@ -1,0 +1,7 @@
+  int sum = 0;
+            int[] lista = { 5, 7, 9, 8, 2, 5, 3 };
+            for(int i; i <= lista.Length; i++)
+            {
+                int sum += lista[i];
+
+            }
