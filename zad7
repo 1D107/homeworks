@@ -1,0 +1,14 @@
+int razem = 0;
+            char[] samo = { 'a', 'e', 'i', 'o', 'u', 'ó', 'ę', 'ą', 'y' };
+
+            Console.WriteLine("Napisz swój poemat:");
+            string zdanie = Console.ReadLine().ToLower();
+
+            for (int i = 0; i < zdanie.Length; i++)
+            {
+                if (samo.Contains(zdanie[i]))
+                {
+                    razem++;
+                }
+            }
+            Console.WriteLine($"liczba samogłosek to =  {razem} ");
