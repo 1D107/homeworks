@@ -1,0 +1,8 @@
+string[] listaString = {"1", "2", "3"};
+int[] listaInt = new int[listaString.Length];
+
+            for (int i = 0; i < listaString.Length; i++){
+                    
+                listaInt[i] = int.Parse(listaString[i]);
+                Console.WriteLine(listaInt[i]);
+            }
