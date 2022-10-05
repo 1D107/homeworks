@@ -1,0 +1,7 @@
+string ala = "Ala ma kota";
+            foreach(char el in ala)
+            {
+                Console.Write(el);
+                Console.Write("   ");
+            }
+            Console.ReadKey();
