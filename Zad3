@@ -1,0 +1,10 @@
+double n = 0;
+            double[] lista = { 5, 7, 9, 8, 2, 5, 8 };
+            for (int i = 0; i < lista.Length; i++)
+            {
+                double b = 1 / lista[i];
+                n += b;
+
+            }
+            Console.WriteLine(lista.Length/n);
+            Console.ReadKey();
